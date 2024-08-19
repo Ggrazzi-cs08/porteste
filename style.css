@@ -566,7 +566,7 @@ h2 {
 
 @keyframes typing {
     from { width: 0; }
-    to { width: 50%; }
+    to { width: 80%; }
 }
 
 @keyframes blink-caret {
@@ -597,15 +597,3 @@ h2 {
     text-decoration: underline;
 }
 
-/*RESPONSIVIDADE*/
-@media (max-width: 600px) {
-    #typing-text {
-        font-size: 1.2rem; /* Ajuste o tamanho da fonte para telas menores */
-    }
-}
-
-@media (max-width: 400px) {
-    #typing-text {
-        font-size: 1rem; /* Ajuste ainda mais o tamanho da fonte para telas muito pequenas */
-    }
-}
