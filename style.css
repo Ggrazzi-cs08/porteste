@@ -597,3 +597,23 @@ h2 {
     text-decoration: underline;
 }
 
+/*RESPONSIVIDADE DIGITAÇÃO*/
+ @media (max-width: 768px) {
+            .txt-sobre h2 {
+                font-size: 1.25rem;
+            }
+
+            #typing-text {
+                animation: typing 3s steps(20, end) forwards;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .txt-sobre h2 {
+                font-size: 1rem;
+            }
+
+            #typing-text {
+                animation: typing 2s steps(15, end) forwards;
+            }
+        }
